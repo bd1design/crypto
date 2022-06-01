@@ -1,0 +1,3094 @@
+/*!
+ * 
+ * CUSTOM CSS STYLE FOR  CRYPTO LANDING PAGE
+ * 
+ */
+
+
+/* Google Fonts  */
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Open+Sans:wght@400;500;600;700;800&family=Orbitron:wght@400;500;600&family=Roboto:wght@100&family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+
+
+	 /* ---------- NAVBAR HEADER NAVIGATION ------------  */
+	
+	.navbar-toggler .navbar-toggler-icon {
+
+	display: block !important;
+	background:url(../img/menu.png) 0 0 no-repeat;
+	}
+
+	.navbar-toggler:focus {
+	outline: none !important;
+	box-shadow: none;
+	}
+
+	.main-navigation .logo-header{
+	display: block;
+	float: left;
+	width: 165px !important;height:60px;
+	background:url(../img/logo.png) 0 0 no-repeat;
+	margin-right: 0;
+	margin-top: 10px;
+	margin-left: 40px;
+
+	}
+
+	.main-navigation{
+	background-color: transparent;
+	display: block;
+	padding-left: 0;padding-right: 0;
+	padding-top: 0;
+
+	}
+
+	.main-navigation .nav-list .nav-link{
+	
+	font-weight:600;
+	color: #fff;
+	text-transform:uppercase;
+	font-size: 12px;
+	letter-spacing: 1px !important;
+	margin-right:10px;
+	margin-top: 15px;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	}
+
+	.nav-list .nav-item .btn-nav-book{
+	background-color: #F55340;
+	padding-top: 16px;
+	padding-bottom:16px;
+	font-size: 14px;
+	color: #ffffff;
+	border-radius:2px;
+	padding-left: 10px;padding-right: 10px;
+	border-radius: 5px;
+	margin-top: 0;
+	display: block;
+	float: left;
+	width: 250px;
+	position: relative;
+	}
+
+	.nav-list .nav-item .btn-nav-book span{
+	font-size:11px;
+	color: #ffffff;
+	
+	text-transform: capitalize;
+	float: left;
+	display: block;
+	text-align: center;
+	width: 100%;
+	}
+
+	.nav-list .nav-item .btn-nav-book p{
+	font-size:14px;
+	color: #ffffff;
+	
+	text-transform: capitalize;
+	float: left;
+	display: block;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 600;
+	}
+
+
+	.circle {
+		width: 12px;
+		height: 12px;
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		top: 32px;
+		left: 20px;
+	}
+	
+	.ringring {
+		border: 3px solid #fff;
+		-webkit-border-radius: 30px;
+		height: 25px;
+		width: 25px;
+		position: absolute;
+		left: 13px;
+		top: 26px;
+		-webkit-animation: pulsate 1s ease-out;
+		-webkit-animation-iteration-count: infinite;
+		opacity: 0.0;
+	}
+	@-webkit-keyframes pulsate {
+		0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+		50% {opacity: 1.0;}
+		100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+	}
+
+	.nav-list .nav-item .btn-nav-book .fa{
+	margin-left: 7px;
+	font-size: 16px;
+	vertical-align: 1px;
+	}
+
+	.nav-list .nav-item .gt-quote{
+	background-color: #4638b3;
+	/*background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);*/
+	padding-top: 8px;
+	padding-bottom:8px;
+	font-size: 16px;
+	color: #ffffff;
+	border-radius:2px;
+	padding-left: 20px;padding-right: 20px;
+	margin-right: 25px;
+	}
+
+	.nav-list .nav-item .gt-quote:hover{
+	background-color: #4638b3;
+	color: #fff !important;
+	}
+
+
+
+	.main-navigation .nav-list .nav-link:hover{
+	cursor: pointer;
+	color: #F55340;
+	}
+
+	.nav-list .nav-item .btn-nav-book:hover{
+	color: #fafafa !important;
+	background-color: #F55340;
+	}
+
+	.nav-list .dropdown{
+	
+	font-weight:600;
+	color: #313433;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	margin-right:10px;
+	text-align: center;
+	position: relative;
+	margin-top: 18px;
+
+	}
+
+	.nav-list .dropdown a{
+	color: #313433;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	text-align: center;
+	}
+	.nav-list .dropdown a:hover{
+	text-decoration: none;
+	color: #069455;
+	}
+
+	.nav-list .dropdown a .caret{
+	padding-top: 10px;
+	}
+
+
+	.nav-list .dropdown .nav-dropdown{
+	border-radius: 0;
+	width:240px;
+	padding-bottom:0;
+	padding-top: 0;
+	}
+
+	.nav-list .dropdown .nav-dropdown li{
+	padding-top:8px;padding-bottom:8px;
+	display: inline !important;
+	float: left;
+	border-right: 1px solid #eee;
+	border-top:1px solid #eee; 
+	width:100%;
+	}
+
+	.nav-list .dropdown .nav-dropdown li:nth-child(2n){
+	background-color: #f9f6f6;
+	}
+
+	.nav-list .dropdown .nav-dropdown li:nth-child(3n){
+	border-right: 0;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair{
+	width: 100%;
+	border: none;
+	background-color:#e69906 ;
+	padding-top:5px;padding-bottom:5px;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair:hover{
+	background:#cc8807;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair{
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+	font-family: "Roboto";
+	font-weight: 500;
+	border: 0;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair .fa{
+	margin-left: 10px;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:hover{
+	text-decoration: underline;
+	color: #e0e1e2;
+	cursor: pointer;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:focus,.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:active{
+	outline: none !important;
+	box-shadow: none !important;
+	}
+
+	.nav-list .dropdown .nav-dropdown li a img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	.nav-list .dropdown .nav-dropdown a p{
+	
+	font-weight: 600;
+	color: #313433;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding-left: 15px;padding-right: 15px;
+	margin-top:0;
+	text-align: left!important;
+	width: 100%;
+	margin-bottom:0;
+	}
+
+	.dropdown .nav-dropdown li a:hover{
+	color: #e69906;
+
+	}
+
+	.dropdown .nav-dropdown li a>p:hover{
+	color:#e69906;
+	}
+
+	.nav-list .dropdown .nav-dropdown li:hover{
+	background: #f5f6f8;
+	}
+
+	.nav-list .dropdown .nav-dropdown .nav-title a img {
+	display: block;
+	float: left;
+	padding-left: 10px;
+	}
+
+	.nav-list .dropdown .nav-dropdown .nav-title a p{
+	text-align: center !important;
+	padding-top:7px;
+	color: #313433;
+	font-weight: 700;
+	}
+
+
+	.shrink {
+	display: block;
+	width: 100%;
+	}
+
+
+	.shrink  .shrink {
+	display: none;
+	}
+
+	.shrink {
+	padding-top: 0 !important;
+	padding-bottom: 15px !important;
+	min-height: 70px !important;
+	background-color: #102030;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	}
+	
+
+
+    
+	 /* ---------- HERO BANNER AND CONTACT US ------------  */
+
+	#file-a-complaint{
+	background: url(../img/header-hero-bck.png) no-repeat;
+	position: relative;
+	background-repeat: no-repeat;
+	padding:0px 0 10px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+	}
+
+	.contact-us-form{
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	padding-left: 30px;padding-right: 30px;
+	padding-bottom: 30px;padding-top:15px;
+	width: 90%;
+	background-color: #fafafa;
+	box-shadow: 0 5px 20px 5px rgba(0,0,0,.1);
+	background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);
+	position: relative;
+
+	}
+
+	.contact-us-form .contact-title{
+	color: #fff;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	font-weight: 600;
+	font-size: 21px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	
+	margin-top: 4px;
+	position: absolute;
+	top: -27px;
+	left: 25px;
+	/*background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);*/
+	background-color:#f8791b;
+	}
+
+
+	#file-a-complaint .logo-trusted{
+	display: block;
+	position: absolute;
+	bottom: 30px;
+	right: 125px;
+	}
+
+	.form-group .upload-label{
+	
+	color: #fff;
+	font-size: 13px;
+	}
+	.form-group .upload-btn {
+
+	font-size: 15px;
+
+
+	}
+
+
+
+	.contact-us-form  .send-message{
+	
+	font-weight:700;
+	color: #ffffff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border-radius: 3px;
+	background-color:#f8791b;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius:20px;
+
+	}
+
+	.contact-us-form .contact-form-control{
+	font-size: 14px;
+	color: #ffffff;
+	background: #f7f8f9;
+	border: 1px solid #c6c8ca;
+	border-radius: 1px;
+	
+	padding-top: 8px;
+	font-weight: 600;
+	padding-bottom: 8px;
+	padding-left: 15px;
+	width: 100%;
+	}
+	.form-control .placeholder{
+	color: #073664 !important;
+	}
+
+	.contact-form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #073664 !important;
+	
+	font-weight: 600;
+	opacity: 1; /* Firefox */
+	}
+
+	input, textarea{
+	color: #FFF;
+	}
+
+
+	.contact-us-form .select-title{
+	font-size: 16px;
+	color: #fff;
+	
+	font-weight: 500;
+	}
+
+	.contact-us-form .select-reason{
+	height: 45px;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+
+
+	#file-a-complaint .contact-informations{
+	display: block;
+	padding-left: 60px;
+	margin-top: 160px;
+	}
+
+	.contact-informations h2{
+	font-size:37px;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: left;
+	color: #fff;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-shadow: none;
+	animation: breath 2s ease-in-out alternate infinite;
+
+	}
+
+
+	.contact-informations h2 span{
+	font-size: 37px;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: left;
+	color: #fff;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: none;
+	animation: breath 2s ease-in-out alternate infinite;
+
+	}
+
+	@keyframes breath {
+	from { 
+	transform: scale(1);
+	}
+	to {
+	transform: scale(1.03)
+	}
+	}
+
+	.header-image{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.contact-informations h5{
+		font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 30px;
+	text-align: left;
+	margin-bottom: 5px;
+	padding-left: 0;
+
+	}
+
+	.contact-informations h6{
+	
+	font-weight: 600;
+	color: #343333;
+	font-size: 17px;
+	text-align: left;
+	margin-top: 25px;
+	padding-left: 0;
+
+	}
+
+	.contact-informations .home-form{
+	margin-top:70px;
+	display: block;
+	}
+
+	.contact-informations .border-small{
+	display: block;
+	width: 100px;
+	border: 2px solid #052E57;
+	}
+
+	.contact-informations h6 .fa{
+	color: #fff;
+	margin-right: 13px;
+	}
+
+
+	.contact-informations .hero-call span img{
+
+	margin-right: 20px;
+	margin-left: -20px;
+	margin-top: -4px;
+	}
+	.contact-informations .hero-call span{
+	
+	font-weight: 600;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center; 
+	letter-spacing: 1px;
+	border: 3px solid #fff;
+	padding-top: 15px;padding-bottom: 15px;
+	padding-right: 55px;
+	border-radius: 25px;
+	background-color: #181f27;
+
+	}
+
+	
+	 /* ---------- BACK TO TOP BUTTON ------------  */
+
+   #back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: rgba(0,0,0,0.3);
+    color: #fafafa;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    }
+    #back-to-top:hover {
+    background: rgba(0,0,0,0.5);
+    }
+    #back-to-top.show {
+    opacity: 1;
+    }
+
+
+    
+	 /* ---------- CRYPTO SCAM SECTION ------------  */
+
+	.crypto-scam{
+	padding-top: 90px;padding-bottom:90px;
+	background: url(../img/test-section-2.jpg) no-repeat;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	}
+
+	.crypto-scam .txt-image{
+	margin-top: 100px;
+	}
+
+	.crypto-scam .txt-services{
+	padding-right: 30px;
+	padding-left: 70px;
+	margin-top: 20px;
+	}
+
+	.txt-services h3{
+	
+	font-weight: 600;
+	color: #fff;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	background-color:#F55340;
+	padding-top: 12px; padding-bottom: 12px;
+
+	border-radius: 30px;
+	margin-bottom: 10px;
+	width: 60%;
+	text-align: center;
+	}
+
+	.txt-services h2{
+	color: #F55340;
+	font-size: 30px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 55px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	}
+
+	.txt-services p{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px;
+
+	}
+
+	.txt-services h6{
+	
+	font-weight: 600;
+	color: #fff;
+	font-size: 16px;
+	text-align: left;
+	margin-left: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	}
+
+	.txt-services h6 img{
+	display: block;
+	float: left;
+	margin-right: 15px;
+	margin-top: 6px;
+	}
+
+	.txt-image img{
+	display: block;
+	margin-top: 60px;
+	}
+
+
+   
+     
+    
+    /* LET'S RECOVER YOUR LOST FUNDS section */
+    
+	#recover-process{
+	padding-top: 40px;
+	padding-bottom: 130px;
+	background: url(../img/final-test-our-process.jpg) no-repeat;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+	}
+
+	#recover-process .l-side{
+	padding-right: 30px;
+	padding-left: 70px;
+	margin-top: 50px;
+	}
+
+	.l-side h2{
+	color: #F55340;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	}
+
+	.l-side p{
+		font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 16px;
+	text-align: left;
+	line-height: 25px;  
+	margin-bottom: 70px; 
+
+	}
+
+
+	#recover-process .r-side{
+	padding-right: 0;
+
+	}
+
+	.box-process{
+	padding-left: 10px;
+	padding-top: 0;
+	padding-right: 20px;
+	padding-bottom:0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	max-width: 46%;
+	position: relative;
+	}
+
+	.box-process img{
+	position: absolute;
+	top: 8px;
+	left: -6px;
+	}
+
+	.box-process h4{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom:10px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	width: 100%;
+	float: left;
+	display: block;
+	background-color: rgba(2, 32, 68, 0.8);
+	padding-top: 17px;padding-bottom: 17px;
+	}
+
+	.box-process .small-text{
+	color: #fff;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom:20px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	padding-right: 0;
+	width: 100%;
+	float: left;
+	display: block;
+	}
+
+  
+
+    #text-content{
+	    background: url(../img/banner-spot-scam-v2.jpg) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 100px;
+
+    }
+
+    #text-content .left-image-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+	border-radius: 20px;
+    }
+
+
+    #text-content .txt-right {
+    padding-right: 50px;
+    padding-left: 45px;
+    margin-top: 0px;
+    }
+
+  
+    #text-content .txt-right h2{
+    color: #F55340;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 40px;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    }
+
+    #text-content .txt-right p {
+    	font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 16px;
+    text-align: left;
+    line-height: 27px;
+
+    }
+
+	.list-fea{
+		display: block;
+		float: left;
+		width: 100%;
+		padding-left: 20px;
+	}
+
+	.list-fea li{
+		color: #fff;
+	}
+
+   .list-fea h6 {
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    display: block;
+    margin-left: 10px;
+	line-height: 24px;
+	color: #fff;
+
+    }
+
+   
+
+    #text-content .txt-right h6 img{
+    float: left;
+    display: block;
+    margin-right: 10px;
+
+    margin-top: 8px;
+    }
+
+
+
+
+	.button-quote{
+	
+	font-weight: 500;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 270px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	margin-top: 60px;
+	background-color: #F55340;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	}
+
+	.button-quote .fa{
+	margin-left: 8px;
+	}
+
+   
+
+
+
+	/* ----- BANNER CTA DESIGN ----------- */
+
+	.final-banner{
+	padding-top: 120px;padding-bottom: 120px;
+	background: url(../img/final-banner-reversed.jpg) no-repeat;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: 100% 100%;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	
+	}
+
+	.final-banner .blue-text{
+	padding-left: 60px;
+	 
+	}
+
+
+
+	.final-banner  .buy-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	border: 4px solid #fff;
+	}
+
+	.final-banner h2 {
+		font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	color: #F55340;
+	font-size: 29px;
+	text-align: left;
+	margin-top: 2px;
+	margin-bottom: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-transform: uppercase;
+	}
+
+	.final-banner  h3{
+		font-family: 'Titillium Web', sans-serif;
+		font-weight: 600;
+		color: #F55340;
+		font-size: 16px;
+		text-align: left;
+		line-height: 24px;
+		margin-bottom: 5px;
+		}
+	
+
+	.final-banner  p{
+		font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color: #FFF;
+	font-size: 16px;
+	text-align: left;
+	line-height: 24px;
+	margin-bottom: 15px;
+	}
+
+	
+
+	.final-banner .btn-get-money{
+	
+	font-weight: 500;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 270px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+
+	background-color: #F55340;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-top: 65px;
+	}
+
+	.final-banner .btn-get-money .fa{
+	margin-left: 8px;
+	}
+
+
+
+	
+	/* ----- CHOOSE AND TRUST IS ----------- */
+
+	.trust-us{
+	padding-top: 90px;padding-bottom:90px;
+	background: url(../img/trust-us-background.jpg) no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	}
+
+	.trust-us .rate-trustpilot{
+	position: absolute;
+	right: 15px;
+	bottom: 20px;
+
+	}
+
+	.trust-us .txt-choose{
+	padding-right: 30px;
+	padding-left: 70px;
+	margin-top: 20px;
+	}
+
+	.txt-choose h3{
+	
+	font-weight: 600;
+	color: #fff;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	background-color:#F55340;
+	padding-top: 12px; padding-bottom: 12px;
+
+	border-radius: 30px;
+	margin-bottom: 10px;
+	width: 60%;
+	text-align: center;
+	}
+
+	.txt-choose h2{
+	color: #F55340;
+	font-size: 28px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	}
+
+	.txt-choose p{
+		font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 16px;
+	text-align: left;
+
+	}
+
+
+
+	.card-impressions{
+	display: block;
+
+	background-color: rgba(2, 32, 68, 0.45);
+	border-radius: 5px;
+
+	}
+
+	.feedback{
+	margin-top: 50px;
+	}
+
+	.feedback .client-title{
+	color: #F55340;
+	font-size: 28px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-left: 25px;
+
+	}
+
+	.card-impressions .carousel-item {
+	height:330px;
+
+
+	}
+	.card-impressions .user-caption {
+	padding-bottom:10px;
+	padding-left: 20px;padding-right: 20px;
+	right: 0;
+	left: 0;
+	color: #0c1f44;
+	background:transparent;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+
+	top:30px;
+	}
+
+	.card-impressions .user-caption .text-review{
+	text-align:left;
+		font-family: 'Titillium Web', sans-serif;
+	font-weight: 500;
+	color:#fff;
+	font-size: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding-left: 0;
+	line-height: 22px;
+
+	}
+
+	.card-impressions .user-caption .user-name{
+	text-align: left;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color:#fff!important;
+	font-size: 17px;
+	display: block;
+	margin-bottom: 3px;
+	margin-top: 20px;
+
+	}
+
+
+	.card-impressions .user-caption .title{
+	text-align: center;
+		font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color:#fff!important;
+	font-size: 17px;
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-style: italic;
+
+	}
+
+
+	.card-impressions .user-caption .line-bor{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #BFBBBB;
+	margin-top: 35px;
+	margin-bottom: 30px;
+
+	}
+
+	.card-impressions .user-caption .user-title{
+	text-align: left;
+		font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 16px;
+	float: left;
+	display: block;
+	font-style: italic;
+	}
+
+	.card-impressions .user-caption .user-picture{
+	position: absolute;
+	left: 10px;
+	top:6px;
+	}
+
+
+
+	.card-impressions  .carousel-caption .col-sm-3 {
+	display: flex;
+	align-items: center;
+	}
+	.card-impressions .carousel-caption .col-sm-9 {
+	text-align: left;
+	}
+
+
+	.card-impressions .user-caption .star{
+	position: absolute;
+	right:15px;
+	bottom:6px;
+	}
+
+
+
+	.navi{
+	display: block;
+	margin-right: auto;margin-left: auto;
+	width: 54px;
+	margin-top: 15px;
+	position: absolute;
+	right: 30px; bottom:-45px;
+
+
+	}
+
+	.navi .carousel-control-prev-icon {
+	background-image: url(../img/arrow-left.png);
+	background-repeat: no-repeat;
+
+	}
+
+	.navi  .carousel-control-next-icon {
+	background-image: url(../img/arrow-right.png);
+	background-repeat: no-repeat;
+	}
+
+
+
+	footer{
+	background:#01172d;
+	padding-top:45px;
+	padding-bottom:0;
+	border-top:7px solid #fff;
+	}
+	.sub-footer{
+	display: block;
+	width: 100%;
+	padding-top:20px;padding-bottom:20px;
+	background-color:#01172d;
+	margin-top: 0;
+	}
+
+	.sub-footer .copy {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #c5c2c2;
+	text-align:left;
+	display: block;
+	font-size: 11px;
+
+	margin-top: 3px;
+
+	}
+
+
+	.phone-numbers{
+	display: block;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+	padding-left: 20px;
+	border-top: 1px solid #2b3034;
+	border-bottom: 1px solid #2b3034;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	margin-top: 35px;
+	}
+
+	.phone-numbers li{
+	display: inline-block;
+	float: left;
+
+	}
+
+	.phone-numbers  h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #F55340;
+	text-transform: uppercase;
+	margin-right: 40px;
+	margin-top: 15px;
+	text-align: center;
+	position: absolute;
+	left: 45%;
+	top: -26px;
+	background: #01172d
+	}
+
+	.phone-numbers li span{
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: #EBE7E7;
+	padding-left: 60px;
+	}
+
+	.phone-numbers li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	color: #ffffff;
+	letter-spacing: 1px;
+
+	}
+
+	.phone-numbers li a img{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-top: -12px;
+	width: 40px;height: 40px;
+	}
+
+	.link-footer h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	letter-spacing: 1px;
+	text-align: left;
+	width: 100%;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	}
+
+	.link-footer a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: left;
+	width: 100%;
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+
+	text-decoration: none;
+	color: #c5c2c2;
+	}
+
+	.link-footer a img{
+	display: block;
+	float: left;
+	margin-right: 20px;
+	margin-top: 3px;
+	}
+
+   
+
+	/* --------------- FOOTER STYLE -------------------  */ 
+
+
+    
+
+    /* -------------- SUBMIT CONTACT US FORM ------------- */
+	.contact-form .form-title{
+	display: block;
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #fff;
+	background-color: #F55340;
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	margin-bottom: 40px;
+	}
+
+	.contact-form img{
+	margin-top: 20px;
+	}
+
+	.contact-form .form-title span{
+
+	text-align: center;
+	color: #fff;
+	font-size:15px;
+	font-weight: 500;
+	text-align: center;
+	text-transform: capitalize;
+
+	}
+	.contact-form{
+	background-color: #0E253B;
+	padding-top: 0;
+	padding-bottom: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	border: 1px solid #1B4874;
+	border-radius: 20px;
+	margin-left: 50px;
+	display: block;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 95px;
+	} 
+
+	.contact-form form{
+	padding-left: 30px;
+
+	}
+
+	.contact-form .form-group{
+	display: block;
+	float: left;
+	width: 45%;
+	margin-right: 25px;
+	}
+
+	.contact-form .box-message{
+	display: block;
+	float: left;
+	width: 94%;
+	margin-right: 25px;
+	height: 100px !important;
+	}
+
+	.contact-form .form-group .book-form{
+
+	border-radius: 3px;
+	}
+
+
+	.contact-form .button-submit{
+	display: block;
+	float: left;
+	margin-top: 40px;
+	width: 94%;
+	background-color: #7FD858;
+	color: #fff;
+	font-size: 22px;
+	text-transform: uppercase;
+		font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding-top: 14px;padding-bottom: 14px;
+
+	}
+
+
+    .jquery-datepicker {
+        position: relative;
+        outline: none;
+        display: none;
+        box-sizing: border-box;
+        width: 240px;
+        height: 240px;
+        padding: 5px;
+        font-size: 16px;
+        font-family: sans-serif;
+      }
+      .jquery-datepicker .datepicker-box {
+        display: none;
+        flex-direction: column;
+        height: 100%;
+      }
+      .jquery-datepicker .datepicker-box .box-row {
+        display: flex;
+        min-height: 0;
+        flex: 1;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header {
+        flex: none;
+        position: relative;
+        padding-bottom: 5px;
+        padding-right: 60px;
+        margin-bottom: 5px;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        padding: 5px 7px;
+        cursor: pointer;
+        width: 100%;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions {
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        bottom: 3px;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions .header-action {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        float: left;
+        height: 100%;
+        width: 25px;
+        cursor: pointer;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions .header-action:not(:last-child) {
+        margin-right: 3px;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions .header-action::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        top: 50%;
+        left: 50%;
+        margin-left: -3px;
+        margin-top: -6px;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions .header-action.action-down::after {
+        border-width: 5px 6px 5px 0;
+        border-color: transparent red transparent transparent;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions .header-action.action-up::after {
+        border-width: 5px 0 5px 6px;
+        border-color: transparent transparent transparent red;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-days {
+        font-size: 12px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-week {
+        font-size: 14px;
+        text-align: right;
+      }
+      .jquery-datepicker .datepicker-box .box-row .box-cell {
+        display: flex;
+        flex: 1 1 0;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+        cursor: default;
+      }
+      .jquery-datepicker .datepicker-box.is-active {
+        display: flex;
+      }
+      .jquery-datepicker.is-2x {
+        width: 480px;
+        height: 480px;
+        font-size: 21px;
+      }
+      .jquery-datepicker.is-2x .datepicker-box .box-row.row-days {
+        font-size: 16px;
+      }
+      .jquery-datepicker.is-2x .datepicker-box .box-row.row-week {
+        font-size: 18px;
+      }
+      .jquery-datepicker.is-open {
+        display: block;
+      }
+      .jquery-datepicker.is-popup {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        z-index: 9999;
+      }
+      .jquery-datepicker.is-popup::before,
+      .jquery-datepicker.is-popup::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+      }
+      .jquery-datepicker.is-popup.tip-below::before,
+      .jquery-datepicker.is-popup.tip-below::after {
+        bottom: -10px;
+        border-width: 10px 10px 0 10px;
+        border-color: red transparent transparent transparent;
+      }
+      .jquery-datepicker.is-popup.tip-below::before {
+        bottom: -11px;
+      }
+      .jquery-datepicker.is-popup.tip-above::before,
+      .jquery-datepicker.is-popup.tip-above::after {
+        top: -10px;
+        border-width: 0 10px 10px 10px;
+        border-color: transparent transparent red transparent;
+      }
+      .jquery-datepicker.is-popup.tip-above::before {
+        top: -11px;
+      }
+      .jquery-datepicker.is-popup.tip-right::before,
+      .jquery-datepicker.is-popup.tip-right::after {
+        right: 20px;
+      }
+      .jquery-datepicker.is-popup.tip-left::before,
+      .jquery-datepicker.is-popup.tip-left::after {
+        left: 20px;
+      }
+      .jquery-datepicker.theme-light {
+        border: 1px solid #CCCCCC;
+        background: #FFFFFF;
+        color: #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box {
+        background: #FFFFFF;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header {
+        color: #626262;
+        border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header .header-title:hover {
+        color: #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header .header-actions .header-action.action-down::after {
+        border-color: transparent #CCCCCC transparent transparent;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header .header-actions .header-action.action-up::after {
+        border-color: transparent transparent transparent #CCCCCC;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header .header-actions .header-action.action-down:hover::after {
+        border-color: transparent #222222 transparent transparent;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header .header-actions .header-action.action-up:hover::after {
+        border-color: transparent transparent transparent #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-days {
+        color: #7b7b7b;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell:hover {
+        background: #EEEEEE;
+        color: #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-grayed {
+        background: transparent;
+        color: #CCCCCC;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-today {
+        background: #FFFFFF;
+        color: #12AFCB;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-today:hover {
+        background: #EEEEEE;
+        color: #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-marked {
+        background: rgba(255, 213, 79, 0.2);
+        color: #cf9d00;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-marked:hover {
+        background: #EEEEEE;
+        color: #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-forbidden {
+        background: rgba(229, 115, 115, 0.2);
+        color: #b72222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-selected {
+        background: #12AFCB;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-selected:hover {
+        background: #12AFCB;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-light.tip-below::before {
+        border-color: #CCCCCC transparent transparent transparent;
+      }
+      .jquery-datepicker.theme-light.tip-above::before {
+        border-color: transparent transparent #CCCCCC transparent;
+      }
+      .jquery-datepicker.theme-light.tip-below::after {
+        border-color: #FFFFFF transparent transparent transparent;
+      }
+      .jquery-datepicker.theme-light.tip-above::after {
+        border-color: transparent transparent #FFFFFF transparent;
+      }
+      .jquery-datepicker.theme-dark {
+        border: 1px solid #323232;
+        background: #1B1B1B;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box {
+        background: #1B1B1B;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header {
+        color: rgba(255, 255, 255, 0.5);
+        border-bottom: 1px solid rgba(50, 50, 50, 0.75);
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header .header-title:hover {
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header .header-actions .header-action.action-down::after {
+        border-color: transparent #323232 transparent transparent;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header .header-actions .header-action.action-up::after {
+        border-color: transparent transparent transparent #323232;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header .header-actions .header-action.action-down:hover::after {
+        border-color: transparent #FFFFFF transparent transparent;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header .header-actions .header-action.action-up:hover::after {
+        border-color: transparent transparent transparent #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-days {
+        color: rgba(255, 255, 255, 0.35);
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell:hover {
+        background: #323232;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-grayed {
+        background: transparent;
+        color: #323232;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-today {
+        background: #1B1B1B;
+        color: #12AFCB;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-today:hover {
+        background: #323232;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-marked {
+        background: rgba(255, 213, 79, 0.05);
+        color: #cf9d00;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-marked:hover {
+        background: #323232;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-forbidden {
+        background: rgba(229, 115, 115, 0.05);
+        color: #b72222;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-selected {
+        background: #12AFCB;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-selected:hover {
+        background: #12AFCB;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark.tip-below::before {
+        border-color: #323232 transparent transparent transparent;
+      }
+      .jquery-datepicker.theme-dark.tip-above::before {
+        border-color: transparent transparent #323232 transparent;
+      }
+      .jquery-datepicker.theme-dark.tip-below::after {
+        border-color: #1B1B1B transparent transparent transparent;
+      }
+      .jquery-datepicker.theme-dark.tip-above::after {
+        border-color: transparent transparent #1B1B1B transparent;
+      }
+      
+
+   
+
+
+
+
+    
+
+    /* -------------------  RESPOSNIVE DESGIN -------------------  */
+    
+     
+    
+	@media (min-width: 2560px) {
+
+		.contact-informations h2{
+			
+		}
+
+		#text-content .txt-right h2 {
+			font-size: 34px;
+		}
+
+		.list-fea h6 {
+			font-size: 17px;
+		}
+
+		#recover-process{
+			min-height: 1080px;
+		}
+
+		#text-content{
+			min-height: 1340px;
+			padding-top: 250px;
+		}
+		
+		.l-side h2{
+			font-size: 35px;
+			margin-top: 80px;
+		}
+		.split-text h5{
+		width: 35%;
+		}
+
+		.circle {
+		top: 35px;
+		}
+
+		.ringring {
+		top: 28px;
+		}
+
+		.txt-services h3{
+		width: 42%;
+		}
+
+		.l-side h3{
+		width: 49%;
+		}
+
+		.l-side p{
+		padding-right:0;
+		font-size: 17px;
+		}
+
+		#recover-process .l-side {
+			padding-right: 8%;
+			padding-left: 7%;
+		}
+
+		#text-content .txt-right {
+			padding-left: 4%;
+			padding-right: 11%;
+			
+		}
+
+		.box-process img {
+			position: absolute;
+			top: 20px;
+			left: -6px;
+		}
+
+		.box-process h4{
+		font-size: 20px;
+		margin-top: 20px;
+		}
+
+		.box-process .small-text {
+		font-size: 17px;
+		}
+
+		.split-text {
+		padding-left: 7%;
+		}
+
+		#text-content .txt-right h3{
+		width: 54%;
+		}
+
+		.box-fea h4 {
+			font-size: 18px;
+		}
+
+		.box-fea p {
+			font-size: 16px;
+		}
+
+		.box-fea{
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+
+		.l-title {
+			font-size: 21px;
+		}
+
+		.crypto-scam {
+			
+		}
+
+		.txt-services h2{
+			font-size: 35px;
+			text-align: center;
+		}
+
+		.txt-services p{
+			font-size: 17px;
+		}
+
+		.txt-services h6{
+			font-size: 17px;
+		}
+
+		.feedback .client-title{
+			font-size: 34px;
+			display: block;
+			float: left;
+			width: 100%;
+		}
+
+		.txt-image img {
+			display: block;
+			margin-top: 60px;
+			
+		}
+
+		.card-impressions {
+			display: block;
+			background-color: rgba(2, 32, 68, 0.45);
+			border-radius: 6px;
+			max-width: 60%;
+		}
+
+		.txt-choose h2 {
+			font-size:px ;
+		}
+
+		.final-banner{
+			min-height: 1200px;
+		}
+	
+
+		.final-banner h2 {
+		font-size: 31px;
+		margin-bottom: 60px;
+		margin-top: 10px;
+		}
+
+		.final-banner h3 {
+			font-size: 19px;
+		}
+
+		.final-banner p{
+			font-size: 18px;
+			padding-right: 15%;
+		}
+
+		.final-banner .btn-get-money{
+			margin-top: 120px;
+			margin-left: 0;
+		}
+
+		.split-text h4 {
+			font-size: 32px;
+		}
+
+		.contact-form {
+			width: 70%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#file-a-complaint {
+		
+			
+		}
+
+		#file-a-complaint .contact-informations {
+			display: block;
+			padding-left: 265px;
+			padding-top: 50px;
+		}
+
+		#file-a-complaint .logo-trusted {
+			display: block;
+			position: absolute;
+			bottom: 30px;
+			right: 23%;
+		}
+
+		.final-banner .blue-text {
+			padding-left: 140px;
+			margin-top: 150px;
+		}
+
+
+
+
+	}/* End 2560px Responsive Design extra large  */
+    
+
+	@media only screen and (max-width: 1400px){
+
+		
+
+		.contact-informations h2 span{
+			font-size: 32px;
+		}
+
+		.contact-form .form-title{
+			font-size: 18px;
+		}
+
+		.contact-form{
+			width: 100%;
+		}
+
+		.crypto-scam .txt-services{
+			padding-left: 30px;
+		}
+
+		.txt-services h2{
+			font-size: 27px;
+		}
+
+		#text-content .txt-right h2 {
+			font-size: 27px;
+		}
+
+		.final-banner h2{
+			font-size: 26px;
+		}
+
+	}  /* End 1400  */
+
+
+
+	/* Responsive Design Changes fixes CSS Tablet  */
+
+    @media (max-width: 1200px) {
+		
+
+		.contact-form {
+			width: 85%;
+		}
+
+		.card-impressions .carousel-item {
+			height: 370px;
+		}
+		.box-process img {
+			position: absolute;
+			top: 8px;
+			left: -37px;
+			width: 55px;
+			height: 55px;
+		}
+
+		.txt-services h3 {
+		width: 100%;
+		font-size: 14px;
+		background-color: transparent;
+		}
+
+		.crypto-scam .txt-services{
+		padding-left: 30px;
+		}
+
+		.txt-services p {
+		font-size: 14px;;
+		}
+
+		.txt-services h2 {
+		font-size: 22px;
+		margin-bottom: 20px;
+		text-align: center;
+		}
+
+		#recover-process .l-side {
+		padding-right: 25px;
+		padding-left: 25px;
+		}
+
+		.l-side h3{
+		width: 100%;
+		font-size: 14px;
+		background-color: transparent;
+		}
+
+		.l-side h2 {
+		font-size: 22px;
+		margin-bottom: 25px;
+		text-align: center;
+		}
+
+		.l-side p{
+		font-size: 14px;
+		padding-right: 10px;
+		}
+
+		.box-process .small-text {
+			font-size: 13px;
+		}
+
+		#text-content .txt-right h3{
+			width: 100%;
+			background-color: transparent;
+		}
+
+
+		#text-content .txt-right h2{
+			font-size: 24px;
+			text-align: center;
+		 }
+ 
+		 #text-content .txt-right h6{
+			 margin-left: 0;
+			 font-size: 15px;
+		 }
+
+		 #text-content .txt-right p{
+			font-size: 14px;
+		 }
+
+		 .split-text{
+			 padding-left: 20px;
+		 }
+
+		 .split-text h6 {
+			 font-size: 14px;
+		 }
+
+		 .split-text p {
+			 font-size: 14px;
+		 }
+
+		 .split-text h4 {
+			 font-size: 24px;
+		 }
+
+		 .split-text h5 {
+			 font-size: 14px;
+		 }
+
+		 .final-banner h6{
+			 margin-left: 5px;
+			 font-size: 14px;
+		 }
+
+		 .final-banner .btn-get-money{
+			 font-size: 14px;
+			 display: block;
+			 margin-left: auto;
+			 margin-right: auto;
+			 width: 270px;
+			 float: none;
+		 }
+
+		 #trust-us {
+			padding-top: 59px;
+			padding-bottom: 120px;
+			background-color: #13273A;
+			padding-left: 20px;
+		}
+		 
+		 .final-banner h2 {
+            font-size: 23px;
+        }
+
+		.final-banner p {
+			font-size: 14px;
+		}
+
+		#trust-us .txt-headline-1 h4{
+            font-size: 27px;
+        }
+
+		.box-fea{
+			padding-left: 20px;
+		}
+
+		.box-process h4{
+		font-size: 14px;
+		}
+
+		.box-fea h4 {
+			font-size: 15px;
+		}
+
+
+		.btn-money-request {
+			font-size: 13px;
+		
+			margin-top: 35px;
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			width: 270px;
+			padding-top: 17px;
+			padding-bottom: 17px;
+
+		}
+
+		.social-footer{
+			padding-left: 10px;
+		}
+
+		.phone-numbers li h4 {
+			
+			font-size: 13px;
+			margin-right: 30px;
+			margin-top: 19px;
+		}
+
+		.phone-numbers li a {
+			font-size: 14px;
+		}
+
+		.social-footer li p {
+			font-size: 11px;
+		}
+
+
+		.phone-numbers{
+			padding-left: 10px;
+		}
+
+
+        .contact-form .form-title {
+            font-size: 14px;
+        }
+
+        .contact-form .form-title span {
+            font-size: 10px;
+        }
+
+        .contact-form form {
+            padding-left: 10px;
+        }
+        
+        
+     
+        .contact-informations h2 span {
+            font-size: 28px;
+        }
+
+        .contact-informations h5{
+            font-size: 20px;
+        }
+
+        .txt-image img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .txt-services h3 {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .crypto-scam .txt-services{
+            margin-top: 20px;
+        }
+
+        .crypto-scam .txt-services{
+            padding-right: 10px;
+        }
+
+
+        .crypto-scam .how-work .second-tittle{
+            font-size: 28px;
+        }
+
+
+        #lost-money .intext{
+            padding-right: 10px;
+        }
+
+        #lost-money .intext h2{
+            font-size: 28px;
+        }
+
+        #lost-money .intext h3{
+            font-size: 16px;
+        }
+
+        #choose-us .text-box h3{
+            font-size: 17px;
+            margin-top: 10px;
+        }
+
+        #choose-us .text-box{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+
+
+        #trust-us .txt-headline-1 h5 {
+            font-size: 17px;
+            margin-bottom: 5px;
+        }
+
+
+        #text-content .txt-right {
+            padding-right: 20px;
+            padding-left: 20px;
+            margin-top: 0px;
+        }
+
+    
+
+
+    }/* end  max widht 1200px  */
+        
+
+    @media (max-width: 991px) {
+
+		
+
+		.crypto-scam{
+			padding-top: 60px;
+		}
+
+		#recover-process{
+			padding-top: 50px
+		}
+		
+        .contact-form form {
+            padding-left: 30px;
+        }
+
+		#file-a-complaint .logo-trusted {
+			display: block;
+			 position: relative;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 35px;
+			bottom: 0;right: 0%;
+		}
+
+		.box-process{
+			margin-top: 20px;
+		}
+
+		#text-content{
+			padding-top: 50px;
+		}
+        
+
+        .contact-form .form-title {
+            font-size: 21px;
+        }
+
+        .contact-form .form-title span {
+            font-size: 14px;
+        }
+
+
+
+        .txt-services h3{
+            text-align: center;
+        }
+
+        .txt-services h2{
+            text-align: center;
+        }
+
+
+        #lost-money .intext h2{
+            text-align: center;
+        }
+        
+        #lost-money .intext h3{
+            text-align: center;
+        }
+
+        .intext .btn-money{
+            display: block;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+		.split-text h5{
+			text-align: center;
+			padding-left: 20px;
+			width: 40%;
+		}
+      
+
+
+        #text-content .txt-right h3{
+            text-align: center;
+        }
+
+        #text-content .txt-right h2{
+            text-align: center;
+			font-size: 22px;
+        }
+
+        #scammer-info .scam-text h2 {
+            font-size: 26px;
+        }
+
+		.split-text{
+			margin-top: 30px;
+		}
+
+
+        .adress-nav li .footer-quote{
+            font-size: 14px;
+            width: 265px;
+        }
+
+        .adress-nav li a {
+            font-size: 16px;
+        }
+
+		.nav-list .nav-item .btn-nav-book p{
+			float: none;
+		}
+
+		.nav-list .nav-item .btn-nav-book{
+			float: none;
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 30px;
+		}
+		
+		.final-banner{
+			background-size: cover;
+		}
+
+		.final-banner h2 {
+			font-size: 22px;
+			margin-top: 35px;
+			text-align: center;
+		}
+
+		.box-fea{
+			max-width: 42%;
+		}
+
+		.box-fea h4 {
+			font-size: 14px;
+		}
+
+		.box-fea p {
+			font-size: 13px;
+		}
+
+		.phone-numbers li h4{
+			display: none;
+		}
+
+		.phone-numbers li a {
+			font-size: 9px;
+		}
+       
+       
+
+
+    }  /* end  max widht 991px  */
+	
+
+
+   
+
+    @media (max-width: 767.98px) {
+
+		
+        .contact-form{
+            margin-left: 10px;
+        }
+
+        .contact-form form {
+            padding-left: 10px;
+        }
+        
+     
+
+        .contact-top .text-contact h2{
+          
+            color: #d8b25b;
+        }
+
+        .contact-form .form-title {
+            font-size: 19px;
+        }
+
+        .crypto-scam .how-work .second-tittle {
+            font-size: 25px;
+        }
+
+        .txt-services h2 {
+            text-align: center; font-size: 25px;
+        }
+
+        .crypto-scam .how-work .first-tittle {
+            font-size: 17px;
+        }
+
+        #lost-money .intext h2 {
+            font-size: 25px;
+        }
+
+        #lost-money .intext p{
+            font-size: 15px;
+        }
+
+        #trust-us .txt-headline-1 h4 {
+            font-size: 27px;
+        }
+
+        .list-choose li h6 {
+            font-size: 15px;
+        }
+
+        #trust-us .act-txt {
+            font-size: 19px;
+        }
+
+        #text-content .txt-right h2 {
+            font-size: 25px;
+        }
+
+        .final-banner h2 {
+            font-size: 24px;
+        }
+
+        #scammer-info .scam-text h3{
+            font-size: 17px;
+        }
+
+        .adress-nav{
+            float: left;
+        }
+        
+
+
+        
+
+      
+
+
+
+	}   /* /End responsive Tablet size */
+
+
+
+
+	/* Responsive Design Changes adds CSS Mobile phones*/
+
+	
+	@media (max-width: 575.98px) { 
+		
+	
+		.contact-form {
+			width: 99%;
+			margin-bottom: 20px;
+		}
+
+		.crypto-scam .txt-image {
+			margin-top: 0;
+		}
+		#recover-process {
+			padding-top: 40px;
+			padding-bottom: 50px;
+			background: url(../img/background-lines.jpg) no-repeat;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+
+		.box-process .small-text {
+			font-size: 14px;
+			margin-bottom: 0;
+		}
+		
+		.crypto-scam{
+			background: url(../img/background-lines.jpg) no-repeat;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			padding-bottom: 40px;
+		}
+
+		.txt-image img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 10px;
+		}
+
+		.nav-list .nav-item .btn-nav-book{
+			width: 315px;
+		}
+
+		.nav-list .nav-item .btn-nav-book p{
+			font-size: 13px;
+		}
+
+		.txt-image .btn-go-money {
+			font-size: 13px;
+			width: 263px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			margin-bottom: 30px;
+		}
+
+		.l-side h2 {
+			font-size: 21px;
+			margin-bottom: 25px;
+			text-align: center;
+		}
+
+		.box-process img {
+			position: relative;
+			top: 0;
+			left:0;
+			width: 60px;
+			height: 60px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.box-process {
+		max-width: 95%;
+		margin-left: 20px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		margin-top: 20px;
+		margin-bottom: 0;
+		padding-top: 0;
+		}
+
+		.box-process h4 {
+		font-size: 15px;
+		}
+
+		.l-side p{
+		margin-bottom: 20px;
+		}
+
+	
+		#file-a-complaint{
+			background: url(../img/mobile-header-hero.jpg) no-repeat;
+			background-color: #01172d;
+		    background-size: contain;
+    		background-repeat: no-repeat !important;
+    		background-position: top;
+			margin-top: 73px;
+		}
+
+		.header-image {
+			display: none;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#scammer-info .scam-text h3 {
+			font-size: 16px;
+			text-align: left;
+			color: #F55340;
+		}
+
+		.webpro-faq .faq-header{
+			padding-top: 4px;
+			padding-bottom: 4px;
+			padding-left:0;
+		}
+
+		.webpro-faq .faq-header .btn {
+			font-size: 13px;
+		}
+
+		.webpro-faq .faq-header .btn .fa {
+			float: right;
+			color: #706f6f;
+			margin-top: 1px;
+		}
+
+		#faq-section-ta .text-faq-box h4{
+			font-size: 16px;
+		}
+
+		#trust-us .txt-headline-1 h4 {
+			font-size: 20px;
+		}
+
+		#choose-us .text-box h3 {
+			font-size: 15px;
+			margin-top: 10px;
+		}
+
+		#lost-money .intext h3 {
+			font-size: 15px;
+			
+		}
+
+		.adress-nav {
+			float: left;
+			padding-left: 10px;
+			margin-top: 5px;
+		}
+
+		.phone-numbers li a {
+			font-size: 15px;
+		}
+
+		.sub-footer .copy{
+			padding-left: 10px;
+		}
+
+		#trust-us {
+			padding-bottom: 60px;
+			padding-left: 0;
+		}
+
+		.phone-numbers li{
+			display: block;
+			float: left;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+
+		.phone-numbers li h4 {
+			display: block;
+		}
+
+		.adress-nav  img{
+			width: 80%;
+		}
+
+		#text-content .txt-right h6{
+			margin-bottom: 15px;
+			font-size: 13px;
+		}
+	
+		.split-text h5 {
+			text-align: center;
+			padding-left: 20px;
+			width: 95%;
+		}
+		
+		#text-content .txt-right h6 img{
+			margin-top: 4px;
+		}
+
+		.split-text h4 {
+			font-size: 24px;
+			text-align: center;
+		}
+
+		.money-refund li img {
+		display: block;
+		float: left;
+		margin-right: 10px;
+		width: 20px;
+		}
+
+		.split-text h6{
+			margin-left: 0;
+			margin-bottom: 12px;
+			font-size: 14px;
+		}
+		.intext .btn-money{
+			font-size: 14px;
+			padding-top: 15px;padding-bottom: 15px;
+			width: 255px;
+		}
+
+		.contact-informations h2 span {
+			font-size: 17px;
+			color: #fff;
+			
+		}
+
+		.contact-informations h2 {
+			font-size: 17px;
+			color: #fff;
+			margin-top: 80px;
+		}
+
+        .contact-form{
+            margin-left: 0;
+        }
+
+        .contact-form .form-title span {
+            font-size: 10px;
+        }
+
+
+		
+        .contact-form .form-title {
+            font-size: 14px;
+        }
+
+        .contact-form .form-group {
+            display: block;
+            float: left;
+            width: 94%;
+            margin-right: 25px;
+        }
+
+        .contact-form .button-submit{
+            font-size: 18px;
+        }
+
+
+     
+
+        .contact-form form {
+            padding-left: 10px;
+        }
+      
+        .txt-services h2 {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .txt-services p {
+            font-size: 14px;
+        }
+
+        .crypto-scam .how-work .second-tittle {
+            font-size: 20px;
+			margin-bottom: 20px;
+        }
+        
+        .crypto-scam .how-work .first-tittle {
+            font-size: 16px;
+			margin-top:20px;
+        }
+
+		.crypto-scam .how-work{
+			margin-bottom: 15px;
+		}
+
+       
+
+        #lost-money .intext h2 {
+            font-size: 21px;
+        }
+
+        #lost-money .intext p {
+            font-size: 14px;
+        }
+
+        #lost-money .intext p {
+            font-size: 14px;
+        }
+
+        #choose-us .text-box p {
+            font-size: 14px;   
+        }
+
+        #choose-us .text-box p{
+            padding-left:5px;
+        }
+
+        .money-refund li h6 {
+            font-size: 15px;
+        }
+
+        .mini-banner h2 {
+            font-size: 14px;
+            text-align: center;
+            padding-left: 0;
+        }
+
+		#trust-us .act-txt {
+			font-size: 17px;
+		}
+
+        #trust-us .txt-headline-1 h5 {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        .list-choose li {
+            width: 40%;
+			display: block;
+			float: left;
+        }
+
+        #trust-us .btn-request{
+            font-size: 15px;
+            width: 300px;
+        }
+
+        #text-content .txt-right h2 {
+            font-size: 20px;
+			text-align: left;
+        }
+
+        #text-content .txt-right h3 {
+            font-size: 16px;
+			text-align: left;
+        }
+
+		.l-title{
+			font-size: 15px;
+		}
+
+        #text-content .txt-right h5 {
+            font-size: 16px;
+        }
+
+		.trust-us .rate-trustpilot {
+			display: none;
+		}
+
+        #text-content .txt-right p{
+            font-size: 14px;
+        }
+
+		.feedback .client-title{
+		font-size: 23px;
+		text-align: center;
+		}
+
+		.final-banner h2 {
+		font-size: 17px;
+		margin-top: 5px;
+
+		}
+
+		.txt-choose h2{
+		font-size: 22px;
+		}
+
+
+		.trust-us .txt-choose {
+		padding-right: 20px;
+		padding-left: 20px;
+		margin-top: 0;
+		}
+
+		.trust-us{
+		padding-top: 30px;
+		}
+
+		.final-banner{
+		padding-left: 10px;padding-right: 10px;
+		background-color: #01172e;
+		padding-bottom: 30px;
+		display: block;
+		background-repeat: no-repeat;
+		position: relative;
+		background: url(../img/final-banner-reversed.jpg) no-repeat #01172e;
+
+		background-size: contain;
+
+		background-position: top;
+		margin-top: 0;
+		min-height: auto;
+
+		}
+
+		.final-banner h3{
+			font-size: 15px;
+		}
+
+		.final-banner .blue-text{
+			position: relative;
+			margin-top: 125px;
+			padding-left:20px;
+		}
+
+        .final-banner .btn-get-money{
+            font-size: 15px;
+            width: 300px;
+        }
+
+        #scammer-info .scam-text h2 {
+            font-size: 22px;
+			text-align: left;
+        }
+
+        #scammer-info .scam-text p {
+            font-size: 14px;
+        }
+
+		.card-impressions .carousel-item {
+			height: 400px;
+		}
+
+		.card-impressions .user-caption .user-picture {
+			position: absolute;
+			left: 45%;
+			top: -30px;
+		}
+
+		.final-banner h6{
+			margin-bottom: 15px;
+			line-height: 21px;
+		}
+
+        .fact-numbers li h6 {
+            font-size: 13px;
+        }
+
+        #lost-money .intext {
+            padding-right: 10px;
+            padding-left: 15px;
+        }
+
+		.card-impressions .user-caption .title{
+			font-size: 16px;
+		}
+
+    
+
+        #file-a-complaint .contact-informations {
+            padding-left: 20px;
+        }   
+
+		#faq-section-ta{
+			padding-bottom: 30px;
+		}
+        
+        .contact-informations h5 {
+            font-size: 15px;
+			color: #fff;
+			margin-top: 60px;
+			text-align: center;
+			display: none;
+        }
+
+		.social-footer {
+			width: 95%;
+		}
+
+        .contact-informations h6{
+            font-size: 14px;
+			color: #fff;
+        }
+
+		.contact-informations .border-small {
+			display: block;
+			width: 100px;
+			border: 2px solid #F55340;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+        .main-navigation .logo-header {
+            display: block;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+			width: 150px !important;height:55px;
+			background:url(../img/mobile-logo.png) 0 0 no-repeat;
+            
+            margin-top: 10px;
+         
+        }
+
+        .nav-list .nav-item .btn-nav-book {
+            font-size: 14px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 325px;
+            padding-top: 9px;padding-bottom: 9px;
+			margin-top: 25px;
+        }
+
+		
+
+		#lost-money{
+			padding-top: 30px;
+			padding-bottom: 40px;
+		}
+
+		#choose-us .text-box h2 {
+			font-size: 20px;
+		}
+
+		#choose-us .choose-us-image {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 10px;
+		}
+
+		#file-a-complaint .logo-trusted{
+			margin-bottom: 25px;
+		}
+
+		.box-fea {
+			max-width: 93%;
+			margin-right: 0;
+			display: block;
+			margin-left:0;
+		}
+
+		.final-banner .blue-text .gif-money{
+			display:none;
+		}
+
+		.circle {
+			width: 12px;
+			height: 12px;		
+			position: absolute;
+			top: 30px;
+			left: 20px;
+		}
+
+		.ringring {
+			position: absolute;
+			left: 14px;
+			top: 24px;
+		}
+
+		.crypto-scam .txt-services {
+			padding-right: 30px;
+		}
+
+		#text-content{
+			padding-bottom: 60px;
+		}
+
+		#recover-process .l-side{
+			margin-top: 0;
+		}
+
+
+	} /* end mobile responsive media querie*/
+
